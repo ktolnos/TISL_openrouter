@@ -7,4 +7,4 @@ BASE_URL = "https://openrouter.ai/api/v1/keys"
 
 database = pd.read_csv('database.csv')
 
-CREDITS_PER_MONTH = 10
+CREDITS_PER_MONTH = 5
