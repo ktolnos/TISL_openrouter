@@ -1,6 +1,6 @@
 This repo manages API tokens for [OpenRouter](https://openrouter.ai/).
 
-Currently, it is hosted on our [website](https://github.com/uoft-isl/website). 
+Currently, it is hosted on our [website](https://github.com/uoft-isl/website) at `/projects/TISL_openrouter`. 
 A cron script runs every 1st day of the month to call [cron_topup.sh](cron_topup.sh).
 
 The script expects [MANAGEMENT_KEY](MANAGEMENT_KEY) file with provisions API key to be in the folder. 
