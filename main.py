@@ -18,7 +18,9 @@ response = requests.post(
     }
 )
 
-response
+print(response.status_code)
+print(response.json())
+print(response)
 # # Get a specific key
 # key_hash = "<YOUR_KEY_HASH>"
 # response = requests.get(
