@@ -1,5 +1,5 @@
 from utils import *
-
+print(f"Adding {CREDITS_PER_MONTH} to everyone")
 for row in database.itertuples():
     if row.KEY_HASH is not None:
         response = requests.get(
